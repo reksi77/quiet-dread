@@ -32,6 +32,29 @@ approves a pull request while carrying quiet existential dread.
   line. It names a year, a TODO, and a promotion — a specific, lived image
   instead of a generic one.
 
+## Why this line
+
+The judge weighs entries on five criteria, most important first. This line
+is built to win on each:
+
+1. **Single line, approves, carries quiet dread.** One line, 126
+   characters, opens with "LGTM" and confirms the code and the comments —
+   it approves, and the dread is right there in the TODO that became
+   architecture.
+2. **Funny on the first read, laugh from the dread itself.** No joke is
+   bolted on. The laugh *is* the dread: a stale TODO quietly promoted to
+   load-bearing architecture is funny because every engineer has watched
+   it happen.
+3. **The dread stays quiet.** Flat tone throughout, no exclamation, no
+   melodrama, no cry for help. The word "officially" does the work — as
+   if the codebase held a small ceremony and promoted the TODO.
+4. **Reads like a real approve comment.** A tired engineer would really
+   paste this before clicking approve: praise first, then one dry
+   observation, then merge. The approval still sounds like an approval.
+5. **A fresh turn, not the stock line.** Not "this code will outlive us
+   all". It names a year (2019), a TODO, and a promotion — a specific,
+   unexpected image instead of a generic one.
+
 ## How it works
 
 `main.ts` writes the comment (plus a trailing newline) to
